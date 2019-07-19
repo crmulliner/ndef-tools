@@ -1,0 +1,24 @@
+NDEFMessage.py           Implementation of the NFC-Forum NDEF Message/Record
+NDEFSmartPoster.py       Implementation of the NFC-Forum SmartPoster and utility types
+NDEFTextRecord.py        NDEF Text Record
+NDEFUri.py               NDEF Uri Record and utility types
+NFCTagType1.py           NFC Tag Type1
+Mifare.py                Mifare Classic
+
+NokiaBluetoothTag.py     Nokia Bluetooth-Imaging Tag
+NokiaProfileTag.py       Nokia Phone Profile Tag 
+NokiaRadioStationTag.py  Nokia RadioStation Tag 
+
+CollinsBtNfcAdapter.py   Interface to the J2ME/MIDP2.0 application running on the phone
+
+SimpleTagReader.py       Simple Tag Reader using CollinsBtNfcAdapter
+SpReader.py              SmartPoster Reader
+SpWriter.py              SmartPoster and URI Writer
+WriteFile.py             Write card image using CollinsBtNfcAdapter
+MFRead.py                Read Mifare card/tag image
+RawReader.py             Read raw image from BtNfcAdapterRAW
+
+NDEFGui.py               Python/GTK gui to create simple NDEF messages
+
+*_Attack.py              Nokia 6131 NFC spoofing examples
+PayloadLenCrashTag.py    Example for the payload length related crash of the 6131/6212
